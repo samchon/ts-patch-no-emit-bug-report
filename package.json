@@ -1,0 +1,20 @@
+{
+    "name": "ts-patch-no-emit-bug-report",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index",
+      "postinstall": "ts-patch install"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "typia": "^5.0.1"
+    },
+    "devDependencies": {
+      "ts-node": "^10.9.1",
+      "ts-patch": "^3.0.2",
+      "typescript": "^5.2.2"
+    }
+  }
